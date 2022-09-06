@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                 <meta charset = "UTF-8" />
+                 <meta name=""viewport" content="width=device-width , intial -scale=1.0" />
+                 <meta http-equiv=""X-UA-Compatible" content="ie=edge" />
+                 <title>The Calculator</title>
+                 <link rel="stylesheet" href="assets/styles/app.css"  />
+         </head>
+        <body>
+                    <header>
+                                <h1>The Unconventional Calculator</h1>
+                    </header>
+                    <section id="calculator">
+                                <input type ="number" id="input-number" />
+                                <div>
+                                            <button type="button" id="btn-add">+</button>
+                                            <button type="button" id="btn-subtract">-</button>
+                                            <button type="button" id="btn-multiply">*</button>
+                                            <button type="button" id="btn-divide">/</button>
+                                </div>
+                                <div>
+                                            <button type="button" onclick="display('1') ">1</button>
+                                            <button type="button" onclick="display('2') ">2</button>
+                                            <button type="button" onclick="display('3') ">3</button>
+                                            <button type="button" id="btn-modulus">%</button>
+                                </div>
+                                <div>
+                                            <button type="button" onclick="display('4') ">4</button>
+                                            <button type="button" onclick="display('5') ">5</button>
+                                            <button type="button" onclick="display('6') ">6</button>
+                                            <button type="button" id="btn-equalto">=</button>
+                                </div>
+                                <div>
+                                            <button type="button" onclick="display('7') ">7</button>
+                                            <button type="button" onclick="display('8') ">8</button>
+                                            <button type="button" onclick="display('9') ">9</button>
+                                            <button type="button" onclick="display('0') ">0</button>
+                            </div>
+                    </section>
+                    <section id="results">
+                                <h2 id="current-calculation">0</h2>
+                                <h2>Result:  <span id="current-result">0</span></h2>
+                    </section>
+        <script src="assets/scripts/calcscript.js"></script>
+     </body>
+</html>
